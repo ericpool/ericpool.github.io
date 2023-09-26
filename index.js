@@ -25,7 +25,7 @@
                 <td>${root}</td>
                 <td>${senses}</td>
                 <td>${word_type}</td>
-                <td><a class="show-modal-custom" data-words="${value.actual}" href="#">Actual</a></td>
+                <td><a class="show-modal-custom" data-words="${value.actual}" href="javascript:void(0)">Actual</a></td>
             </tr>
             `
             }
@@ -41,7 +41,7 @@
                             <th scope="col">Word</th>
                             <th scope="col">Definition</th>
                             <th scope="col">Word Type</th>
-                            <th scope="col">Actual</th>
+                            <th scope="col">Words</th>
                         </tr>
                     </thead>
                     <tbody>
