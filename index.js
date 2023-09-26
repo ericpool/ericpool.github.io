@@ -31,7 +31,7 @@
                     <tr>
                         <th scope="col">Count</th>
                         <th scope="col">Word</th>
-                        <th scope="col">First</th>
+                        <th scope="col">Definition</th>
                     </tr>
                     </thead>
                     <tbody>
