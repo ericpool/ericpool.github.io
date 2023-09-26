@@ -16,7 +16,7 @@
                 const count = value.count;
                 rows += `
             <tr>
-                <td>${count}</td>
+                <td class="word-count">${count}</td>
                 <td>${root}</td>
                 <td>${senses}</td>
             </tr>
@@ -26,18 +26,21 @@
             let body = document.getElementById('table-wrapper');
             console.log(body)
 
-            table = `<table class="table">
+            table = `<h1 class="cool-heading">Webel's Words</h1>
+            <div class="container table-wrapper m-auto">
+                <table class="table table-bordered table-striped">
                     <thead>
-                    <tr>
-                        <th scope="col">Count</th>
-                        <th scope="col">Word</th>
-                        <th scope="col">Definition</th>
-                    </tr>
+                        <tr>
+                            <th scope="col">Count</th>
+                            <th scope="col">Word</th>
+                            <th scope="col">Definition</th>
+                        </tr>
                     </thead>
                     <tbody>
                         ${rows}
                     </tbody>
                 </table>
+            </div>
                 `
 
 
