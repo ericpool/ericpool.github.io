@@ -331,15 +331,17 @@
                     "non",
                     "nonne"
                 ],
-                "count": 3233,
+                "count": 3234,
                 "roots": [
                     "non"
                 ],
                 "senses": [
                     "not, by no means, no",
-                    "[non modo ... sed etiam => not only ... but also]"
+                    "[non modo ... sed etiam => not only ... but also]",
+                    "Nones (pl.), abb. Non.",
+                    "7th of month, March, May, July, Oct., 5th elsewhen"
                 ],
-                "word_type": "Adverb"
+                "word_type": ["Adverb", "Noun"]
             }
         ],
         [
@@ -349,13 +351,12 @@
                     "non",
                     "nonne"
                 ],
-                "count": 3233,
+                "count": 3234,
                 "roots": [
                     "non"
                 ],
                 "senses": [
-                    "Nones (pl.), abb. Non.",
-                    "7th of month, March, May, July, Oct., 5th elsewhen"
+                    
                 ],
                 "word_type": "Noun"
             }
@@ -638,23 +639,7 @@
                     "according to",
                     "about w/NUM"
                 ],
-                "word_type": "Preposition"
-            }
-        ],
-        [
-            708,
-            {
-                "actual": [
-                    "ad"
-                ],
-                "count": 1684,
-                "roots": [
-                    "ad"
-                ],
-                "senses": [
-                    "about (with numerals)"
-                ],
-                "word_type": "Adverb"
+                "word_type": ["Preposition", "Adverb"]
             }
         ],
         [
@@ -1377,30 +1362,7 @@
                     "that not, lest",
                     "(for negative of IMP)"
                 ],
-                "word_type": "Conjunction"
-            }
-        ],
-        [
-            27724,
-            {
-                "actual": [
-                    "ne",
-                    "neque",
-                    "neve"
-                ],
-                "count": 1087,
-                "roots": [
-                    "ne"
-                ],
-                "senses": [
-                    "not",
-                    "(intro clause of purpose with subj verb)",
-                    "[ne....quidem => not even]",
-                    "truly, indeed, verily, assuredly",
-                    "(particle of assurance)",
-                    "(w/personal PRON)"
-                ],
-                "word_type": "Adverb"
+                "word_type": ["Conjunction", "Adverb"]
             }
         ],
         [
@@ -1742,27 +1704,6 @@
             }
         ],
         [
-            32670,
-            {
-                "actual": [
-                    "quam",
-                    "quamquam",
-                    "quamvis",
-                    "quamlibet",
-                    "quamcunque",
-                    "quamque"
-                ],
-                "count": 886,
-                "roots": [
-                    "quam"
-                ],
-                "senses": [
-                    "how, than"
-                ],
-                "word_type": "Conjunction"
-            }
-        ],
-        [
             32669,
             {
                 "actual": [
@@ -1782,7 +1723,7 @@
                     "as, than",
                     "[quam + superlative => as ... as possible]"
                 ],
-                "word_type": "Adverb"
+                "word_type": ["Conjuction","Adverb"]
             }
         ],
         [
@@ -2260,96 +2201,19 @@
                 ],
                 "senses": [
                     "Ah!",
-                    "(distress/regret/pity, appeal/entreaty, surprise/joy, objection/contempt)"
-                ],
-                "word_type": "Interjection"
-            }
-        ],
-        [
-            3,
-            {
-                "actual": [
-                    "a",
-                    "as7ixiivqv"
-                ],
-                "count": 728,
-                "roots": [
-                    "a"
-                ],
-                "senses": [
+                    "(distress/regret/pity, appeal/entreaty, surprise/joy, objection/contempt)",
                     "by (agent), from (departure, cause, remote origin/time)",
-                    "after (reference)"
-                ],
-                "word_type": "Preposition"
-            }
-        ],
-        [
-            4,
-            {
-                "actual": [
-                    "a",
-                    "as7ixiivqv"
-                ],
-                "count": 728,
-                "roots": [
-                    "a"
-                ],
-                "senses": [
+                    "after (reference)",
                     "ante, abb. a.",
-                    "[in calendar expression a. d. = ante diem => before the day]"
-                ],
-                "word_type": "Preposition"
-            }
-        ],
-        [
-            1,
-            {
-                "actual": [
-                    "a",
-                    "as7ixiivqv"
-                ],
-                "count": 728,
-                "roots": [
-                    "a"
-                ],
-                "senses": [
+                    "[in calendar expression a. d. = ante diem => before the day]",
                     "Aulus (Roman praenomen)",
                     "(abb. A./Au.)",
-                    "[Absolvo, Antiquo => free, reject]"
-                ],
-                "word_type": "Noun"
-            }
-        ],
-        [
-            2,
-            {
-                "actual": [
-                    "a",
-                    "as7ixiivqv"
-                ],
-                "count": 728,
-                "roots": [
-                    "a"
-                ],
-                "senses": [
+                    "[Absolvo, Antiquo => free, reject]",
                     "year",
                     "abb. ann./a.",
                     "[regnavit a(nnis). XLIIII => he reigned for 44 years]"
                 ],
-                "word_type": "Noun"
-            }
-        ],
-        [
-            27725,
-            {
-                "actual": [
-                    "neque",
-                    "neve"
-                ],
-                "count": 727,
-                "roots": [],
-                "senses": [],
-                "word_type": "Adverb"
+                "word_type": ["Interjection", "Preposition", "Noun"]
             }
         ],
         [
@@ -3139,27 +3003,11 @@
                     "with, together with, at the same time with",
                     "under",
                     "at",
-                    "along with, amid"
-                ],
-                "word_type": "Preposition"
-            }
-        ],
-        [
-            32905,
-            {
-                "actual": [
-                    "quum",
-                    "quumque"
-                ],
-                "count": 524,
-                "roots": [
-                    "quum"
-                ],
-                "senses": [
+                    "along with, amid",
                     "when, while, as, since, although",
                     "as soon"
                 ],
-                "word_type": "Conjunction"
+                "word_type": ["Preposition", "Conjuction"]
             }
         ],
         [
@@ -3926,28 +3774,6 @@
                     "Paul"
                 ],
                 "word_type": "Noun"
-            }
-        ],
-        [
-            29540,
-            {
-                "actual": [
-                    "paulo",
-                    "paulus",
-                    "pauli",
-                    "paulum"
-                ],
-                "count": 420,
-                "roots": [
-                    "paul",
-                    "paul"
-                ],
-                "senses": [
-                    "little",
-                    "small",
-                    "(only a) small amount/quantity of/little bit of"
-                ],
-                "word_type": "Adjective"
             }
         ],
         [
@@ -131675,24 +131501,6 @@
                 ],
                 "senses": [
                     "ceremonial rod, baton"
-                ],
-                "word_type": "Noun"
-            }
-        ],
-        [
-            27984,
-            {
-                "actual": [
-                    "nona"
-                ],
-                "count": 1,
-                "roots": [
-                    "non",
-                    "non"
-                ],
-                "senses": [
-                    "Nones (pl.), abb. Non.",
-                    "7th of month, March, May, July, Oct., 5th elsewhen"
                 ],
                 "word_type": "Noun"
             }
