@@ -1,11 +1,14 @@
 
 (function ($) {
 
+    var obj;
     fetch('data.json')
         .then((response) => response.json())
-        .then((json) => console.log(json));
+        .then((json) => {
+            obj = json
+        });
 
-    let parsed = JSON.parse(json);
+    let parsed = JSON.parse(obj);
 
 
     rows = ``;
