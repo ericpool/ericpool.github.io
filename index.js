@@ -57,9 +57,7 @@
 
         $(document).on('click', '.show-modal-custom', function(){
             const element = document.getElementById('modal-wrapper')
-            var myModal = new bootstrap.Modal(element, {
-                keyboard: false
-            })
+            var myModal = new bootstrap.Modal(element)
 
             let words = this.dataset.words;
 
