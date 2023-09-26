@@ -24,9 +24,8 @@
             }
 
             let body = document.getElementById('table-wrapper');
-            console.log(body)
 
-            table = `<h1 class="cool-heading">Webel's Words</h1>
+            table = `
             <div class="container table-wrapper m-auto">
                 <table class="table table-bordered table-striped">
                     <thead>
