@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <style>
         body {
-            background-image: url('https://images.unsplash.com/photo-1626260113600-84c917a39f59?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80') ;
+            background-image: url('https://images.unsplash.com/photo-1626260113600-84c917a39f59?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80');
             background-size: cover;
             background-position: center;
-            background-attachment: fixed; /* This keeps the background fixed while scrolling */
+            background-attachment: fixed;
+            /* This keeps the background fixed while scrolling */
             color: #fff;
-            margin: 0; 
-            padding: 0; 
+            margin: 0;
+            padding: 0;
         }
 
         .cool-heading {
@@ -36,7 +41,8 @@
             color: #fff;
         }
 
-        th, td {
+        th,
+        td {
             text-align: center;
         }
 
@@ -45,9 +51,10 @@
         }
     </style>
 </head>
+
 <body>
     <h1 class="cool-heading">Webel's Words</h1>
-    <div class="container table-wrapper m-auto">
+    <div id="table-wrapper" class="container table-wrapper m-auto">
         <table class="table table-bordered table-striped">
             <thead>
                 <tr>
@@ -57,24 +64,17 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td class="word-count">1</td>
-                    <td>Lorem</td>
-                    <td>Ipsum dolor sit amet</td>
-                </tr>
-                <tr>
-                    <td class="word-count">2</td>
-                    <td>Consectetur</td>
-                    <td>Adipiscing elit</td>
-                </tr>
-                <tr>
-                    <td class="word-count">3</td>
-                    <td>Nullam</td>
-                    <td>Mauris bibendum</td>
-                </tr>
+
             </tbody>
         </table>
+        <div class="text-center">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
     </div>
 </body>
 <script src="index.js"></script>
+
 </html>
