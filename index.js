@@ -4,7 +4,7 @@
     fetch('data.json')
         .then((response) => response.json())
         .then((json) => {
-            let parsed = json;
+            let parsed = json.result;
             console.log(parsed);
 
 
