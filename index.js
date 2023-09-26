@@ -26,7 +26,7 @@
             let body = document.getElementById('table-wrapper');
 
             table = `
-            <div class="container table-wrapper m-auto">
+            
                 <table class="table table-bordered table-striped">
                     <thead>
                         <tr>
@@ -39,7 +39,7 @@
                         ${rows}
                     </tbody>
                 </table>
-            </div>
+            
                 `
 
 
